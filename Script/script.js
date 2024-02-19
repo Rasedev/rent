@@ -1,4 +1,4 @@
-const seats = document.querySelectorAll("#seat");
+const seats = document.querySelectorAll("#place");
 
 
 function increment(id) {
@@ -34,12 +34,12 @@ function off20Percent(value) {
 
 
 
-for (let seat of seats) {
+for (let place of seats) {
     var clickValue = [];
     var arrayValue = clickValue.length;
 
 
-    seat.addEventListener("click", function (e) {
+    place.addEventListener("click", function (e) {
         var btnValue = e.target.innerText;
         var arrayValue = clickValue.length;
 
