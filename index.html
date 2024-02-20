@@ -242,7 +242,7 @@
           </div>
 
   
-          <div class="bg-[url('/images/cupon-devider.png')]  h-full bg-no-repeat bg-contain absolute transform translate-x-full left-[30%] right-[44%] top-0 "></div>
+          <div class="bg-[url('./images/cupon-devider.png')]  h-full bg-no-repeat bg-contain absolute transform translate-x-full left-[30%] right-[44%] top-0 "></div>
             
           <div class="px-0">
               <h1 class="text-[32px] font-bold font-raleway text-[#030712FF]">Couple 20</h1>
@@ -324,7 +324,7 @@
 
       <div class="max-w-[1170px] w-[90%] mx-auto mt-24 bg-white rounded-3xl p-5">
           <div class="grid grid-cols-12 ">
-              <div class="col-span-7 py-1 px-3 border-dashed border-r-[2px] border-[#13131833]">
+              <div class="col-span-7 py-1 pl-4 pr-9 border-dashed border-r-[2px] border-[#13131833]">
                   <div class="flex justify-between items-center pb-5 mb-8 border-b-2 border-dashed">
                       <p class="text-xl font-bold">Select Your Seat</p>
                   </div>
@@ -333,11 +333,12 @@
                           <img src="images/seat-gray.png" alt="">
                           Available
                       </p>
-                      <p class="text-lime-400 flex gap-2 justify-between items-center">
+                      <p class="text-[#1DD100FF] flex gap-2 justify-between items-center">
                           <img src="images/seat-green-filled.png" alt="">
                           Selected
                       </p>
                   </div>
+                  <div class="flex justify-end pb-7"><button class="bg-[#0307121A] px-6 py-1 rounded-lg"><img src="./images/wheel.png" alt=""></button></div>
 
                   <div class="grid grid-cols-9 gap-12 cursor-pointer">
                       <div class="grid gap-5 col-span-1 mt-[6px]">
@@ -403,7 +404,7 @@
               </div>
 
 
-              <div class="col-span-5 border-dashed py-1 px-3">
+              <div class="col-span-5 border-dashed py-1 pl-8 pr-3">
 
                 <div class="flex justify-between items-center pb-5 mb-3 border-b-2 border-dashed">
                     <p class="text-xl font-bold">Select Your Seat</p>
@@ -412,7 +413,7 @@
                 <div class="bg-green-50 p-8 rounded-xl">
                     <div class="flex justify-between items-center pb-5 mb-8 border-b-2 border-dashed">
                         <p class="flex justify-between items-center text-[16px] font-medium font-inter text-[#030712FF] gap-2">
-                            Seat <span id="seatCount" class="bg-[#1DD100FF] text-white text-lg font-bold px-2 rounded-lg">0</span>
+                            Seat <span id="seatCount" class="bg-[#1DD100FF] text-white text-lg font-semibold px-2 rounded-md">0</span>
                         </p>
                         <p class="text-[16px] font-medium font-inter text-[#030712FF]">
                             Class
@@ -428,20 +429,20 @@
 
 
                     <div class="flex justify-between items-center pb-4">
-                        <p class="text-[16px] font-inter font-medium text-[#030712FF] pt-[16px]">
+                        <p class="text-[18px] font-inter font-medium text-[#030712FF] pt-[16px]">
                             Total Price
                         </p>
-                        <p class="flex gap-1 justify-between items-center text-[16px] font-inter font-medium text-[#030712FF] ">
-                            BDT <span id="totalPrice" class="text-[16px] font-inter font-medium text-[#030712FF] ">0</span>
+                        <p class="flex gap-1 justify-between items-center text-[18px] font-inter font-medium text-[#030712FF] ">
+                            BDT <span id="totalPrice" class="text-xl font-inter font-semibold text-[#030712FF] ">0</span>
                         </p>
                     </div>
                     <div id="discountDiv" class="hidden">
                       <div class="mb-1 border-b-2 border-solid flex justify-between items-center">
-                          <p class="text-lg font-bold">
+                          <p class="text-[18px] font-inter font-medium text-[#030712FF]">
                               discount Price
                           </p>
-                          <p class="flex gap-1 justify-between items-center text-lg font-bold">
-                              BDT <span id="discountValue" class="text-2xl font-semibold">00.00</span>
+                          <p class="flex gap-1 justify-between items-center text-[18px] font-inter font-medium text-[#030712FF]">
+                              BDT <span id="discountValue" class="text-xl font-semibold text-[#030712FF]">00.00</span>
                           </p>
                       </div>
                   </div>
@@ -456,11 +457,11 @@
                       <p id="invalid" class="hidden text-red-600">invalid coupon !!!</p>
                   </div>
                     <div class="flex justify-between items-center pt-4">
-                        <p id="grand-total" class="text-[16px] font-inter font-medium text-[#030712FF]">
+                        <p id="grand-total" class="text-[18px] font-inter font-medium text-[#030712FF]">
                             Grand Total
                         </p>
-                        <p class="flex gap-1 justify-between items-center text-[16px] font-inter font-medium text-[#030712FF]">
-                            BDT <span id="grandPrice" class="text-[16px] font-inter font-medium text-[#030712FF]">00.00</span>
+                        <p class="flex gap-1 justify-between items-center text-[18px] font-inter font-medium text-[#030712FF]">
+                            BDT <span id="grandPrice" class="text-xl font-inter font-semibold text-[#030712FF]">00.00</span>
                         </p>
                     </div>
                 </div>

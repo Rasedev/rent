@@ -63,13 +63,13 @@ for (let place of seats) {
             let ticketList = document.getElementById("ticketList");
             ticketList.innerHTML += `
             <ul class="flex justify-between items-center mb-1">
-                <li class="text-xl font-medium text-slate-400">
+                <li class="text-[16px] font-inter font-medium text-[#03071299]">
                     ${btnValue}
                 </li>
-                <li class=" font-medium text-slate-400">
+                <li class="text-[16px] font-inter font-medium text-[#03071299]">
                     Economy
                 </li>
-                <li id="ticketPrice" class="font-medium text-slate-400">
+                <li id="ticketPrice" class="text-[16px] font-inter font-medium text-[#03071299]">
                     550
                 </li>
             </ul>
